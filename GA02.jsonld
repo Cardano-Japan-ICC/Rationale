@@ -60,11 +60,11 @@
   ],
   "body": {
     "summary": "The info action for calling Chang hf+1 HOSKY hard fork --> is constitutional.",
-    "rationaleStatement": "Constitutional: We consider that the government action is not unconstitutional, because it does not violate any prohibitions in current Interim Cardano Constitution. However, there has been no evidence provided that this GA (Governance Action) is necessary, and the purpose of affecting governance itself is unclear. It is believed that measures should be taken to ensure that an increase in such proposals does not negatively affect governance.",
+    "rationaleStatement": "This Governance Action is considered not to be unconstitutional since it does not violate any prohibitions. However, regarding GAs (Governance Actions) that do not intend to make any changes to Cardano’s governance, it is believed that such actions could hinder the smooth operation of governance in the future and waste the resources of voters. Therefore, in the active constitution, there should be a mechanism to exclude such actions.",
     "internalVote": {
-      "constitutional": 5,
+      "constitutional": 4,
       "unconstitutional": 0,
-      "abstain": 0,
+      "abstain": 1,
       "didNotVote": 0
     },
     "references": [
