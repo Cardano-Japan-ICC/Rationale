@@ -52,31 +52,15 @@
       }
     }
   },
-        "authors": {
-            "@id": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#authors",
-            "@container": "@set",
-            "@context": {
-                "did": "@id",
-                "name": "http://xmlns.com/foaf/0.1/name",
-                "witness": {
-                    "@id": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#witness",
-                    "@context": {
-                        "witnessAlgorithm": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#witnessAlgorithm",
-                        "publicKey": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#publicKey",
-                        "signature": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#signature"
-                    }
-                }
-            }
-        }
-    },
-"hashAlgorithm": "blake2b-256",
-    "authors": [
-      { "name": "Cardano Japan"
-      }
-    ],
+  "hashAlgorithm": "blake2b-256",
+  "authors": [
+    {
+      "name": "Cardano Japan"
+    }
+  ],
   "body": {
     "summary": "The info action for calling Chang hf+1 HOSKY hard fork --> is constitutional.",
-    "rationaleStatement": "Constitutional”: We consider that the government action is not unconstitutional, because it does not violate any prohibitions in current Interim Cardano Constitution. However, there has been no evidence provided that this GA (Governance Action) is necessary, and the purpose of affecting governance itself is unclear. It is believed that measures should be taken to ensure that an increase in such proposals does not negatively affect governance.",
+    "rationaleStatement": "Constitutional: We consider that the government action is not unconstitutional, because it does not violate any prohibitions in current Interim Cardano Constitution. However, there has been no evidence provided that this GA (Governance Action) is necessary, and the purpose of affecting governance itself is unclear. It is believed that measures should be taken to ensure that an increase in such proposals does not negatively affect governance.",
     "internalVote": {
       "constitutional": 5,
       "unconstitutional": 0,
@@ -90,10 +74,10 @@
         "uri": "https://constitution.gov.tools/en/interim-constitution#section-1-4"
       },
       {
-        "@type": "relevant article",
+        "@type": "relevantArticles",
         "label": "APPENDIX I-8 GUARDRAILS AND GUIDELINES ON INFO ACTIONS",
         "uri": "https://constitution.gov.tools/en/interim-constitution#8-guardrails-and-guidelines-on-info-actions"
       }
+    ]
   }
-  ]
 }
