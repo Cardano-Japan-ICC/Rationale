@@ -85,9 +85,14 @@
     },
     "references": [
       {
-        "@type": "Other",
-        "label": "CIP-1694 | A First Step Towards On-Chain Decentralized Governance",
-        "uri": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-1694/README.md"
+        "@type": "relevantArticles",
+        "label": "Article IV Section 1",
+        "uri": "https://constitution.gov.tools/en/interim-constitution#section-1-4"
+      },
+      {
+        "@type": "relevant article",
+        "label": "APPENDIX I-8 GUARDRAILS AND GUIDELINES ON INFO ACTIONS",
+        "uri": "https://constitution.gov.tools/en/interim-constitution#8-guardrails-and-guidelines-on-info-actions"
       }
   }
   ]
