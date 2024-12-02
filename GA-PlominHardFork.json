@@ -76,7 +76,7 @@
     ],
   "body": {
     "summary": "Rename the Chang 2 Hard Fork to the Plomin Hard Fork --> is constitutional.",
-    "Under the current on-chain constitution, this matter requires a vote. Additionally, since the definition of a hard fork includes reflecting community opinion, we find no issues with this proposal.",
+    "Under the current on-chain constitution, this matter requires a vote. Additionally, since the definition of an info action includes reflecting community opinion, we find no issues with this proposal.",
     "internalVote": {
       "constitutional": 4,
       "unconstitutional": 0,
