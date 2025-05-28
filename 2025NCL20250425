@@ -1,0 +1,56 @@
+{
+  "@context": {
+    "@language": "en",
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP136": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0136/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP136:body",
+      "@context": {
+        "references": {
+          "@id": "CIP100:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "RelevantArticles": "CIP136:RelevantArticles"
+          }
+        },
+        "summary": "CIP136:summary",
+        "rationaleStatement": "CIP136:rationaleStatement",
+        "precedentDiscussion": "CIP136:precedentDiscussion",
+        "counterargumentDiscussion": "CIP136:counterargumentDiscussion",
+        "conclusion": "CIP136:conclusion",
+        "internalVote": {
+          "@id": "CIP136:internalVote",
+          "@container": "@set",
+          "@context": {
+            "constitutional": "CIP136:constitutional",
+            "unconstitutional": "CIP136:unconstitutional",
+            "abstain": "CIP136:abstain",
+            "didNotVote": "CIP136:didNotVote"
+          }
+        }
+      }
+    }
+  },
+  "hashAlgorithm": "blake2b-256",
+  "authors": [
+    {
+      "name": "Cardano Japan"
+    }
+  ],
+  "body": {
+    "summary": "The 2025 Net Change Limit, submitted on 2025-04-25, is considered constitutional.",
+    "rationaleStatement": "[Constitutional] This governance action was reviewed in accordance with the Cardano Blockchain Constitution, focusing on whether it is appropriate to vote on this type of Info Action and its constitutionality. Initially, discussions arose from the interpretation of Article VII, Section 4, which states that Info Actions generally do not require a vote unless they pertain to budgetary matters. 1. Voting Obligation (Article VII, Section 4): The Constitution states that Info Actions are not subject to mandatory votes for Constitutional Committee members, except when they relate to the budget. This Info Action concerns the Net Change Limit, which governs the potential allocation of treasury funds. Three members voted YES, arguing that this Info Action indirectly affects the budget and is therefore eligible for a vote. Two members voted ABSTAIN, asserting that it does not directly allocate funds and is thus not subject to mandatory voting. 2. Constitutional Validity: No member argued that this Info Action contained unconstitutional elements. It was unanimously agreed that the proposal complies with the Constitution.",
+    "conclusion": "Based on the majority decision (3 YES, 2 ABSTAIN), a vote was cast in favor of this Info Action. Despite differing interpretations regarding the voting obligation, there was no evidence or opinion suggesting the proposal was unconstitutional. Therefore, we conclude that this info action is constitutional.",
+    "internalVote": {
+      "constitutional": 3,
+      "unconstitutional": 0,
+      "abstain": 2,
+      "didNotVote": 0
+    }
+  }
+}
