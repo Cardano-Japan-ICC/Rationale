@@ -1,0 +1,55 @@
+{
+  "@context": {
+    "@language": "en",
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP136": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0136/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP136:body",
+      "@context": {
+        "references": {
+          "@id": "CIP100:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "RelevantArticles": "CIP136:RelevantArticles"
+          }
+        },
+        "summary": "CIP136:summary",
+        "rationaleStatement": "CIP136:rationaleStatement",
+        "precedentDiscussion": "CIP136:precedentDiscussion",
+        "counterargumentDiscussion": "CIP136:counterargumentDiscussion",
+        "conclusion": "CIP136:conclusion",
+        "internalVote": {
+          "@id": "CIP136:internalVote",
+          "@container": "@set",
+          "@context": {
+            "constitutional": "CIP136:constitutional",
+            "unconstitutional": "CIP136:unconstitutional",
+            "abstain": "CIP136:abstain",
+            "didNotVote": "CIP136:didNotVote"
+          }
+        }
+      }
+    }
+  },
+  "hashAlgorithm": "blake2b-256",
+  "authors": [
+    {
+      "name": "Cardano Japan Council"
+    }
+  ],
+  "body": {
+    "summary": "Series of 39 Treasury Withdrawal Governance Actions → Constitutional",
+    "rationaleStatement": "[Constitutional] As the Cardano Japan Council, we have concluded that the series of 39 treasury withdrawal governance actions are constitutional. Our review focused on Article IV, Sections 1 through 4, and Appendix 1-3 Guardrails and Guidelines on Treasury Withdrawal Actions. We found that concerns regarding transparency and audit oversight—raised when the related INFO action was proposed—have been addressed through Intersect’s involvement in all 39 cases. No direct constitutional violations were identified.\n\nSpecific confirmation details are as follows:\n\n• **Article IV, Section 1**: This series of withdrawals is based on the previously approved on-chain budget information action (Cardano Blockchain Ecosystem Budget – 275M ADA administered by Intersect; ID: gov_action1u9x73kwufaxa70lfy59g4ynwyrcsaxdcd0gxzzmh67s9fxq4j8hqqk2phgh).\n• **Article IV, Section 2**: The designated fund manager is Intersect, which will be subject to audit.\n• **Article IV, Section 3**: The total combined amount of these 39 claims remains within the previously approved 275M ADA budget and the 2025 net change limit of 350M ADA.\n• **Article IV, Section 4**: Intersect will utilize external audit committees or similar entities to conduct an audit equivalent to an “independent audit.”\n• **Article IV, Section 5**: Each proposal includes a separate, auditable, independent account, integrated with budget management tools.\n\n**Appendix 1–3 Guardrails:**\n• **TREASURY-02a**: Does not exceed the 2025 net change limit of 350M ADA.\n• **TREASURY-03a**: All amounts are denominated in ADA.\n• **TREASURY-04a**: Governance actions for the 2025 budget of 275M ADA have been approved.\n\nWhile there are areas for improvement—such as insufficiently detailed budget breakdowns, overly aggregated figures (e.g., stated only in millions), limited transparency, and the absence of publicly accessible supporting documents—these shortcomings do not constitute a clear constitutional violation.",
+    "internalVote": {
+      "constitutional": 5,
+      "unconstitutional": 0,
+      "abstain": 0,
+      "didNotVote": 0
+    }
+  }
+}
